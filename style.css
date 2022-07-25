@@ -1,0 +1,70 @@
+:root {
+    --yellow: #d7e677; 
+    --purple: #5c4fb0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    background-color: var(--yellow);
+
+}
+
+p {
+    font-size: 27px;
+    text-align: center;
+    color: var(--purple);
+    margin: 25px 0px;
+}
+
+.form {
+    padding: 0px 20px 0px 0px;
+}
+
+label {
+    color: var(--purple);
+    font-size: 19px;
+}
+
+input {
+    display: block;
+    margin: 8px 0px 25px;
+    width: 100%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: 2px solid var(--purple);
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: var(--purple);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0px 15px;
+}
+
+img {
+    margin-bottom: 20px;
+    /* display: none; */
+    display: inline-block;
+}
+
+/* on screens with a minimum width of 600px */
+@media screen and (min-width: 600px) {
+    .container {
+        width: 40%;
+        margin: 20px auto;
+    }
+}
